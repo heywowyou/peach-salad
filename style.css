@@ -35,7 +35,7 @@ body {
 
 .navigation-block p:hover {
   opacity: 0.3;
-  transition: 0.6s;
+  transition: 0.3s;
 }
 
 .image-container {
@@ -75,4 +75,9 @@ body {
   max-width: 46px;
   height: auto;
   flex: auto;
+}
+
+.social-block img:hover {
+  opacity: 0.3;
+  transition: 0.3s;
 }

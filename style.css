@@ -8,6 +8,15 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -34,13 +43,9 @@ body {
   font-size: 20px;
 }
 
-.navigation-block p {
-  margin: 0;
-}
-
 .navigation-block p:hover {
   opacity: 0.3;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .image-container {
@@ -84,5 +89,5 @@ body {
 
 .social-block img:hover {
   opacity: 0.3;
-  transition: 0.3s;
+  transition: 0.2s;
 }

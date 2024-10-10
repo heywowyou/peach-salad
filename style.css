@@ -33,6 +33,11 @@ body {
   font-size: 20px;
 }
 
+.navigation-block p:hover {
+  opacity: 0.3;
+  transition: 0.6s;
+}
+
 .image-container {
   display: flex;
   flex-wrap: wrap;
@@ -42,8 +47,14 @@ body {
   gap: 30px;
 }
 
+.image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .image-container img {
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
   flex: auto;
 }

@@ -2,11 +2,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-p {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -49,6 +44,24 @@ body {
 
 .image-container img {
   max-width: 300px;
+  height: auto;
+  flex: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.social-block {
+  display: flex;
+  gap: 20px;
+}
+
+.social-block img {
+  max-width: 46px;
   height: auto;
   flex: auto;
 }

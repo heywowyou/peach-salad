@@ -15,22 +15,27 @@ body {
 
 .logo-block {
   display: flex;
-  flex: initial;
-  align-items: center;
-  padding: 2%;
-  font-weight: 800;
-  font-size: 40px;
+  padding: 60px 0px 30px 100px;
+}
+
+.logo-block img {
+  max-width: 500px;
+  height: auto;
 }
 
 .navigation-block {
   display: flex;
-  flex: initial;
+  flex-wrap: wrap;
   justify-content: end;
   align-items: end;
-  padding: 2%;
+  padding: 60px 120px;
   gap: 30px;
   font-weight: 600;
   font-size: 20px;
+}
+
+.navigation-block p {
+  margin: 0;
 }
 
 .navigation-block p:hover {

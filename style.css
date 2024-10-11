@@ -20,11 +20,12 @@ p {
 .header-container {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
 }
 
 .logo-block {
   display: flex;
-  padding: 60px 0px 30px 100px;
+  padding: 60px 0px 30px 60px;
 }
 
 .logo-block img {
@@ -34,11 +35,10 @@ p {
 
 .navigation-block {
   display: flex;
-  flex-wrap: wrap;
   justify-content: end;
   align-items: end;
-  padding: 60px 120px;
-  gap: 30px;
+  padding: 0 60px 30px 0;
+  gap: 20px;
   font-weight: 600;
   font-size: 20px;
 }

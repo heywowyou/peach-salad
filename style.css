@@ -70,6 +70,10 @@ p {
   flex: auto;
 }
 
+.work-border {
+  border-radius: 30px;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;

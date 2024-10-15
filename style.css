@@ -93,6 +93,12 @@ p {
   transition: 0.2s;
 }
 
+.about-text {
+  padding: 100px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
